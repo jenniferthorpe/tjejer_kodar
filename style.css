@@ -1,0 +1,50 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  background-color: #C8A2C8;
+}
+
+h1 {
+  letter-spacing: 1px;
+  font-size: 44px;
+  color: #292929;
+}
+
+.optionBox {
+  margin: 10px 0px;
+  width: 300px;
+}
+
+.options {
+  margin: inherit;
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 18px;
+  color: #292929;
+}
+
+.inputField {
+  margin-top: 1px;
+  background-color: #fdbdc6;
+  border-color: #ec7676;
+}
+
+.goButton {
+  margin-top: 25px;
+}
+
+button {
+  font-size: 14px;
+  background-color: #ec7676;
+  border-color: #ec7676;
+  color: #292929;
+}
